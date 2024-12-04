@@ -1,0 +1,22 @@
+{
+  "name": "frontuepb",
+  "version": "1.0.0",
+  "main": "atv04/index.js",
+  "scripts": {
+    "start": "node atv04/index.js",
+    "dev": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "UEPB",
+    "web development"
+  ],
+  "author": "Adam Dias",
+  "license": "ISC",
+  "description": "A web development project for the front-end of UEPB.",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
